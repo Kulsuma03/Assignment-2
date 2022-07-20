@@ -1,0 +1,264 @@
+
+/* -------------------
+    Fonts
+------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@500&display=swap');
+/* -------------------
+    Common style
+------------------- */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* -------------------
+    Header style
+------------------- */
+header{
+    
+    height: 475px;
+    background: linear-gradient(45deg, #030E1F, #254A6B);
+    width: 902px;
+    margin: auto;
+    /* display: flex;
+    justify-content: center; */
+    padding: 30px 61px 0px 85px ;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 22px;
+    
+    
+    
+}
+.container-1{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-child{
+    width: 50%;
+}
+
+.header-image img{
+    width: 100%;
+    
+    
+}
+.header-title .child-1{
+    color: #dee9e1;
+    font-size: 50px;
+    line-height: 65px;
+    font-weight: 500px;
+    margin-bottom: 10px;
+}
+
+.header-title .child-2{
+    color: rgb(152, 165, 177);
+    font-size: 13px;
+    width: 90%;
+    margin-bottom: 36px;
+   
+    
+}
+
+
+.btn{
+    color: #f8faf8;
+    background: linear-gradient(45deg, rgb(141, 45, 7), orangered);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    
+    
+   
+}
+.btn:hover{
+    background: white;
+    border: 1px solid  #A80A05;
+    color:  #A80A05;
+    padding: 9px 19px;
+}
+
+.slides{
+    display: flex;
+    margin-top: 20px;
+}
+.slide{
+    width: 40px;
+    height: 40px;
+    background: #1a3042;
+    border-radius: 50%;
+}
+@keyframes margin {
+    0%{
+        background: #254A6B;
+        
+
+    }
+    50%{
+        background: linear-gradient(45deg, #030E1F, #254A6B);
+        margin-left: 300px;
+        
+    }
+    100%{
+        background: #254A6B;
+        
+    }
+}
+.right-child{
+    animation: margin 10s infinite ease-in-out alternate;
+    animation-play-state: running;
+}
+
+/* ----------------------
+ upcoming match style
+---------------------- */
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+.container-2{
+    width: 1040px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 20px;
+    
+} 
+
+.upcoming-match{
+    width: 246px;
+}
+.button{
+   
+    background: #030E1F;
+    padding: 20px 0px; 
+    border-radius: 10px;
+}
+.upcoming-btn{
+    background: white;
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 10px;
+    width: 200px;
+    margin: 20px;
+    
+    
+   
+}
+
+.upcoming-btn:active:hover:focus{
+    background: red;
+}
+
+.upcoming-btn a{
+    text-decoration: none;
+    color: rgb(37, 36, 36);
+}
+.upcoming a{
+    color: #f4f7f4;
+}
+.upcoming{
+    background: #F04201;
+}
+/* ------------------------
+    blogs style
+------------------------ */
+
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+.blogs-item{
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    width: 245px;
+}
+   
+.blogs-item .tumbnail{
+    width: 246px;
+}
+.blog{
+    margin: 20px 15px;
+}
+.blog-child{
+    display: flex;
+    align-items: center;
+    
+}
+.blog-icon{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    
+
+}
+.blog-icon img{
+    width: 19px;
+}
+.small{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.blog-btn{
+    padding: 4px 9px;
+    border-radius: 5px;
+    border: 1.5px solid grey;
+    text-decoration: none;
+    color: rgb(37, 36, 36);
+    font-size: 13px;
+}
+
+.blog-info{
+    font-size: 15px;
+    color: black;
+}
+/* -------------------------
+    footer style
+------------------------- */
+footer{
+    background: #224464;
+    width: 100%;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.container-3{
+    width: 80%;
+    margin: auto;
+}
+#goal{
+    color: rgb(241, 239, 239);
+    font-size: 40px;
+    text-align: center;
+}
+#hr{
+    border: 1px solid rgb(5, 74, 114);
+}
+.contact-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-link a{
+    text-decoration: none;
+    color: rgb(165, 157, 157);
+    
+}
+.contact a{
+    margin: 35px 20px 0px;
+}
+.icon a{
+   margin: 20px 10px;
+}
+.contact-link a:hover{
+    text-decoration: underline;
+}
